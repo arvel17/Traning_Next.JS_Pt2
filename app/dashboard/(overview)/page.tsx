@@ -9,6 +9,7 @@ import {
   CardSkeleton,
 } from '@/app/ui/skeletons'; //import chart skeleton
 
+export const dynamic = 'force-dynamic';
 export default async function Page() {
   //fetchRevenue(); hilang karena mau pakai suspense
   //fetchLataestIncovice(); hilang karena mau pakai suspense
